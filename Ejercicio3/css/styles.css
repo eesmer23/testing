@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: #E8EAF6;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header.header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #212F3C ;
+    font-size: 35px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+nav.Barra > ul{
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style:none ;
+}
+
+ul > li{
+    display: inline-block;
+}
+
+li >a:hover{
+    background: #ccc;
+    transition: all 0.4s linear;
+}
+
+li.Acercade > a{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+li.Map > a{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+li.Pais > a{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+li.Imágenes > a{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.contenedor{
+    width: 85%;
+    max-width: 85%;
+    margin:0 auto;
+}
+
+p.Historia{
+    text-align:justify;
+    line-height: 150%;
+    font-size: 20px;
+}
+
+h2.Subtemas{
+    text-align: center;
+    line-height: 150%;
+}
+
+div.Centroamerica{
+    margin-top: 1px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+p.Mapa{
+    text-align:justify;
+    margin: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 150%;
+    font-size: 20px;
+}
+
+img.Division{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+img.Letras{
+    margin-top: 72px;
+    margin-bottom: 3px;
+}
+
+div.ImagenesP{
+    width: 1400px;
+    height: 1900px;
+    margin: auto;
+    font-size: 35px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+div.ImagenesP > div{
+    display: block;
+    padding: 20px;
+    text-align: center;    
+}
+
+div.ImagenesP{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 300px 1fr;
+    grid-gap: 20px;
+}
+
+div.ImagenesP > div.PANAMA{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+a > p.Pan{
+    margin-left: 285px;
+}
+
+h2.Pais{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background-color:#D3E3F3 ;
+}
+
+div.ImagenesP > div {
+    text-align: justify;
+    font-size: 25px;
+    background-color:#D3E3F3 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.album> div{
+    display: block;
+    padding: 12px;
+    text-align: center;    
+}
+
+div.album{
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    height: 1000px;
+}
+
+div.ImagenesP >div > a{
+    text-decoration: none;
+    color: #000000;
+}
+
